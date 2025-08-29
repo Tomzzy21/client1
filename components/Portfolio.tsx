@@ -17,13 +17,13 @@ const PortfolioCard: React.FC<{ item: PortfolioItem; transform: string }> = ({ i
     return (
         <div className={`relative w-56 md:w-64 flex-shrink-0 transition-all duration-300 hover:scale-105 hover:z-20 hover:!rotate-0 hover:!translate-y-0 ${transform}`}>
             {/* The Clip */}
-            <div className="absolute -top-4 left-1/2 -translate-x-1/2 z-20 w-8 h-9 bg-emerald-500 rounded-md flex items-start justify-center pt-2 shadow">
-                <div className="w-2 h-2 rounded-full bg-white/50 ring-1 ring-black/5"></div>
+            <div className="absolute -top-4 left-1/2 -translate-x-1/2 z-20 w-8 h-9 bg-black rounded-md flex items-start justify-center pt-2 shadow">
+                <div className="w-2 h-2 rounded-full bg-white ring-1 ring-white/20"></div>
             </div>
             
             {/* The Card */}
             <div className="bg-white p-3 pt-6 rounded-2xl shadow-lg border border-gray-100/80 transition-shadow hover:shadow-xl relative z-10">
-                <img src={item.image} alt={item.title} className="w-full h-36 object-cover rounded-xl" />
+                <img src={item.image} alt={item.title} className="w-full h-48 object-cover rounded-xl" />
                 <div className="pt-4 pb-2 px-1">
                     <h3 className="text-lg font-bold text-slate-800">{item.title}</h3>
                     <p className="text-sm text-slate-500 mt-1">{item.description}</p>

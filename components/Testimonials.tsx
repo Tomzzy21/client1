@@ -65,26 +65,32 @@ const TestimonialCard: React.FC<Testimonial> = ({ quote, author, color, pointer 
                 }
                 `}
             </style>
-            <div
-                className={`
-                    relative p-6 rounded-3xl border text-slate-700 font-medium min-h-[6rem]
-                    ${color}
-                    shadow-xl
-                    after:content-[''] after:absolute after:w-5 after:h-5 after:rotate-45 
-                    after:bg-inherit after:border-inherit after:border-t-0 after:border-l-0 
-                    after:bottom-[-11px] ${pointerClasses[pointer]}
-                `}
-            >
-                "{displayedQuote}"{isTyping && <span className="inline-block w-0.5 h-5 bg-slate-700 animate-blink align-text-bottom ml-1"></span>}
-            </div>
-            <div className="flex items-center gap-4 mt-6">
-                <img src={author.avatar} alt={author.name} className="w-12 h-12 rounded-full object-cover shadow-lg border-2 border-white/50" />
-                <div className={`
-                    py-1.5 px-4 rounded-full border shadow-lg
-                    ${color}
-                `}>
-                    <h4 className="font-bold text-slate-800">{author.name}</h4>
-                    <p className="text-slate-600 uppercase text-xs tracking-wider">{author.title}</p>
+            <div className="space-y-2">
+                <div className="relative w-full">
+                    {/* Speech Bubble */}
+                    <div className={`
+                        relative p-6 rounded-2xl max-w-xs mx-auto
+                        bg-white border-2 border-black
+                        before:absolute before:content-[''] before:w-4 before:h-4 before:bg-white before:border-b-2 before:border-r-2 before:border-black
+                        before:bottom-0 before:left-1/2 before:-mb-2 before:-translate-x-1/2
+                        before:rotate-45
+                        ${color}
+                    `}>
+                        <p className="text-black text-center text-sm leading-relaxed font-medium">
+                            "{displayedQuote}"
+                            {isTyping && <span className="inline-block w-0.5 h-5 bg-slate-700 animate-blink align-text-bottom ml-1"></span>}
+                        </p>
+                    </div>
+                    
+                    {/* Name Container */}
+                    <div className="mt-6 flex flex-col items-center">
+                        <div className="px-5 py-1.5 rounded-full bg-white border-2 border-black">
+                            <div className="flex flex-col items-center">
+                                <h4 className="font-bold text-black text-sm">{author.name}</h4>
+                                <p className="text-gray-600 text-[10px] uppercase tracking-wider mt-0.5">{author.title}</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -100,7 +106,7 @@ const Testimonials: React.FC = () => {
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16 md:mb-24">
                     <h2 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900 leading-tight">
-                        Loved by <span className="bg-gradient-to-r from-blue-700 to-emerald-500 bg-clip-text text-transparent">creators</span>
+                        Loved by <span className="bg-gradient-to-r from-blue-700 to-emerald-500 bg-clip-text text-transparent">clients</span>
                         <br />
                         and teams
                     </h2>
@@ -109,12 +115,14 @@ const Testimonials: React.FC = () => {
                 {/* Responsive layout: stacked on mobile, absolute on desktop */}
                 <div className="relative xl:h-[650px]">
                     {/* Mobile & Tablet Layout */}
-                    <div className="xl:hidden flex flex-col items-center gap-16">
-                        {testimonials.map((testimonial, index) => (
-                            <div key={index} className="w-full max-w-md">
-                               <TestimonialCard {...testimonial} />
-                            </div>
-                        ))}
+                    <div className="xl:hidden w-full">
+                        <div className="flex overflow-x-auto pb-8 -mx-4 px-4 gap-8 snap-x snap-mandatory [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+                            {testimonials.map((testimonial, index) => (
+                                <div key={index} className="flex-shrink-0 w-72 px-2 snap-center">
+                                    <TestimonialCard {...testimonial} />
+                                </div>
+                            ))}
+                        </div>
                     </div>
 
                     {/* Desktop Layout */}

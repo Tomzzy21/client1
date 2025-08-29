@@ -23,8 +23,8 @@ const TeamMemberCard: React.FC<{ member: TeamMember }> = ({ member }) => {
                     aria-label={`Find out more about ${member.name}`}
                     className="w-12 h-12 flex items-center justify-center shrink-0"
                 >
-                    <div className="w-10 h-10 rounded-full bg-emerald-400/80 flex items-center justify-center transition-all duration-300 shadow-[0_0_10px_0px_rgba(52,211,153,0.5)] group-hover:shadow-[0_0_18px_2px_rgba(52,211,153,0.6)] group-hover:bg-emerald-400">
-                        <div className="w-3.5 h-3.5 bg-slate-900"></div>
+                    <div className="w-10 h-10 rounded-full bg-[#295faf]/80 flex items-center justify-center transition-all duration-300 shadow-[0_0_10px_0px_rgba(41,95,175,0.5)] group-hover:shadow-[0_0_18px_2px_rgba(41,95,175,0.6)] group-hover:bg-[#295faf]">
+                        <div className="w-3.5 h-3.5 bg-white"></div>
                     </div>
                 </a>
             </div>

@@ -13,44 +13,44 @@ export const navLinks: NavLink[] = [
 export const portfolioItems: PortfolioItem[] = [
     {
         id: 1,
-        title: 'Maths',
-        category: 'Education',
-        description: 'Learn about maths for kids',
+        title: 'Branded Merchandise',
+        category: 'Pens',
+        description: 'Custom-designed pens that put your brand in your customers\' hands every day.',
         image: '/IMG_0637.jpg',
     },
     {
         id: 2,
-        title: 'History',
-        category: 'Education',
-        description: 'Learn about history for kids',
+        title: 'Identity Keychains',
+        category: 'Keychains',
+        description: 'Sleek, practical brand keepsakes that stay with your audience wherever they go.',
         image: '/IMG_0638.jpg',
     },
     {
         id: 3,
-        title: 'Animals',
-        category: 'Education',
-        description: 'Learn about animals for kids',
+        title: 'Corporate Gift Kits',
+        category: 'Gift Packs',
+        description: 'Complete branded kits that leave lasting impressions with clients and partners.',
         image: '/IMG_0639.jpg',
     },
     {
         id: 4,
-        title: 'Entertainment',
-        category: 'Education',
-        description: 'Learn about entertainment for kids',
+        title: 'Premium Accessories',
+        category: 'Leather Goods',
+        description: 'High-quality branded pieces that elevate your identity through style and function.',
         image: '/IMG_0641.jpg',
     },
     {
         id: 5,
-        title: 'Science',
-        category: 'Education',
-        description: 'Explore science concepts for kids',
+        title: 'Branded Mugs',
+        category: 'Drinkware',
+        description: 'Everyday essentials that keep your brand front and center, from the first sip of coffee to the last.',
         image: '/IMG_0636.jpg',
     },
     {
         id: 6,
-        title: 'Geography',
-        category: 'Education',
-        description: 'Discover the world through geography',
+        title: 'Promotional Umbrellas',
+        category: 'Outdoor',
+        description: 'Bold, practical designs that extend your brand\'s visibility while keeping clients covered.',
         image: '/IMG_0640.jpg',
     },
 ];
@@ -146,7 +146,7 @@ export const testimonials: Testimonial[] = [
       avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=face'
     },
     className: 'xl:absolute xl:top-[10%] xl:left-[2%] w-full sm:max-w-sm',
-    color: 'bg-pink-300/10 border-pink-300/20 backdrop-blur-lg',
+    color: 'bg-[#295faf]/20 border-[#295faf]/40 backdrop-blur-lg shadow-[0_0_20px_rgba(41,95,175,0.3)]',
     pointer: 'left'
   },
   {
@@ -157,7 +157,7 @@ export const testimonials: Testimonial[] = [
       avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face'
     },
     className: 'xl:absolute xl:bottom-[5%] xl:left-[5%] w-full sm:max-w-xs',
-    color: 'bg-pink-300/10 border-pink-300/20 backdrop-blur-lg',
+    color: 'bg-[#2a84c0]/20 border-[#2a84c0]/40 backdrop-blur-lg shadow-[0_0_20px_rgba(42,132,192,0.3)]',
     pointer: 'left'
   },
   {
@@ -168,7 +168,7 @@ export const testimonials: Testimonial[] = [
       avatar: 'https://images.unsplash.com/photo-1603415526960-f7e0328c63b1?w=100&h=100&fit=crop&crop=face'
     },
     className: 'xl:absolute xl:top-[2%] xl:left-1/2 xl:-translate-x-1/2 w-full sm:max-w-xs',
-    color: 'bg-orange-300/10 border-orange-300/20 backdrop-blur-lg',
+    color: 'bg-[#3ba343]/20 border-[#3ba343]/40 backdrop-blur-lg shadow-[0_0_20px_rgba(59,163,67,0.3)]',
     pointer: 'center'
   },
   {
@@ -179,7 +179,7 @@ export const testimonials: Testimonial[] = [
       avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face'
     },
     className: 'xl:absolute xl:top-[15%] xl:right-[2%] w-full sm:max-w-sm',
-    color: 'bg-teal-300/10 border-teal-300/20 backdrop-blur-lg',
+    color: 'bg-[#295faf]/20 border-[#295faf]/40 backdrop-blur-lg shadow-[0_0_20px_rgba(41,95,175,0.3)]',
     pointer: 'right'
   },
   {
@@ -190,8 +190,19 @@ export const testimonials: Testimonial[] = [
       avatar: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=100&h=100&fit=crop&crop=face'
     },
     className: 'xl:absolute xl:bottom-[10%] xl:right-[5%] w-full sm:max-w-xs',
-    color: 'bg-teal-300/10 border-teal-300/20 backdrop-blur-lg',
+    color: 'bg-[#3ba343]/20 border-[#3ba343]/40 backdrop-blur-lg shadow-[0_0_20px_rgba(59,163,67,0.3)]',
     pointer: 'right'
+  },
+  {
+    quote: "The perfect tool for staying ahead of trends and understanding our audience better.",
+    author: {
+      name: 'Sarah Johnson',
+      title: 'DIGITAL MARKETER',
+      avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face'
+    },
+    className: 'xl:absolute xl:bottom-[-4%] xl:left-1/2 xl:-translate-x-1/2 w-full sm:max-w-xs',
+    color: 'bg-[#2a84c0]/20 border-[#2a84c0]/40 backdrop-blur-lg shadow-[0_0_20px_rgba(42,132,192,0.3)]',
+    pointer: 'center'
   }
 ];
 

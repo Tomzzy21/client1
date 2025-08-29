@@ -8,8 +8,11 @@ const Footer: React.FC = () => {
             <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                     <div className="md:col-span-2">
-                        <a href="#hero" className="text-2xl font-bold tracking-tighter text-white">
-                           macchie&strisce
+                        <a href="#hero" className="flex items-center space-x-2">
+                            <img src="/Logo2.png" alt="Macchie & Strisce Logo" className="h-12 w-auto" />
+                            <span className="text-2xl font-bold tracking-tighter text-white">
+                                macchie&strisce
+                            </span>
                         </a>
                         <p className="mt-4 max-w-sm text-slate-400">
                             A wholly owned Nigerian company established in 2015, specializing in creative branding solutions with a focus on positive customer experience.

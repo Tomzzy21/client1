@@ -18,8 +18,11 @@ const Navbar: React.FC = () => {
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white/95 shadow-md backdrop-blur-sm' : 'bg-transparent'}`}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          <a href="#hero" className="text-2xl font-bold tracking-tighter">
-            <span className="bg-gradient-to-r from-blue-700 to-emerald-500 bg-clip-text text-transparent">macchie&strisce</span>
+          <a href="#hero" className="flex items-center space-x-2">
+            <img src="/Logo.png" alt="Macchie & Strisce Logo" className="h-12 w-auto" />
+            <span className="text-2xl font-bold tracking-tighter">
+              <span className="bg-gradient-to-r from-blue-700 to-emerald-500 bg-clip-text text-transparent">macchie&strisce</span>
+            </span>
           </a>
           
           <nav className="hidden md:flex items-center space-x-8">
