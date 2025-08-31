@@ -53,6 +53,27 @@ export const portfolioItems: PortfolioItem[] = [
         description: 'Bold, practical designs that extend your brand\'s visibility while keeping clients covered.',
         image: '/IMG_0640.jpg',
     },
+    {
+        id: 7,
+        title: 'Corporate Stationery Set',
+        category: 'Office',
+        description: 'Elegant and professional stationery that makes a lasting impression in every business interaction.',
+        image: '/PHOTO-2025-08-29-18-35-11.jpg',
+    },
+    {
+        id: 8,
+        title: 'Custom Notebooks',
+        category: 'Office Supplies',
+        description: 'Premium quality notebooks featuring your brand, perfect for corporate gifting and promotions.',
+        image: '/PHOTO-2025-08-29-18-36-59.jpg',
+    },
+    {
+        id: 9,
+        title: 'Branded Desk Organizer',
+        category: 'Office Accessories',
+        description: 'Keep workspaces tidy while maintaining brand presence with these stylish desk organizers.',
+        image: '/PHOTO-2025-08-29-18-37-00.jpg',
+    },
 ];
 
 export const services: Service[] = [
@@ -139,10 +160,10 @@ export const howItWorksSteps: HowItWorksStep[] = [
 
 export const testimonials: Testimonial[] = [
   {
-    quote: "A a content strategist, I build content so much faster because I know what's going on!",
+    quote: "Obsessed with my new spill-proof cup! 🥤 The suction base is genius - no more spills! Perfect for busy days and messy kids. A total game-changer! ⭐⭐⭐⭐⭐",
     author: {
       name: 'Ava Quett',
-      title: 'CREATIVE STRATEGIST',
+      title: 'SATISFIED CUSTOMER',
       avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=face'
     },
     className: 'xl:absolute xl:top-[10%] xl:left-[2%] w-full sm:max-w-sm',
@@ -150,21 +171,21 @@ export const testimonials: Testimonial[] = [
     pointer: 'left'
   },
   {
-    quote: "I check it every morning, it's literally part of my workflow.",
+    quote: "I love the charging cables, it lasts long, Great job M&S ❤️",
     author: {
       name: 'Benjamin Lee',
-      title: 'SOCIAL LEAD',
+      title: 'SATISFIED CUSTOMER',
       avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face'
     },
-    className: 'xl:absolute xl:bottom-[5%] xl:left-[5%] w-full sm:max-w-xs',
+    className: 'xl:absolute xl:bottom-[5%] xl:left-[5%] w-full sm:max-w-[280px]',
     color: 'bg-[#2a84c0]/20 border-[#2a84c0]/40 backdrop-blur-lg shadow-[0_0_20px_rgba(42,132,192,0.3)]',
     pointer: 'left'
   },
   {
-    quote: "Super useful for deciding what's worth building around",
+    quote: "Thank you @macchieandstrisce for adding value to our training with these unique gift items. We look forward to working with you again in the near future.",
     author: {
       name: 'Max Delaney',
-      title: 'INDIE SAAS FOUNDER',
+      title: 'TRAINING ORGANIZER',
       avatar: 'https://images.unsplash.com/photo-1603415526960-f7e0328c63b1?w=100&h=100&fit=crop&crop=face'
     },
     className: 'xl:absolute xl:top-[2%] xl:left-1/2 xl:-translate-x-1/2 w-full sm:max-w-xs',
@@ -172,10 +193,10 @@ export const testimonials: Testimonial[] = [
     pointer: 'center'
   },
   {
-    quote: "I love it for my clothing brand, Zeez. It's like a shortcut to what our girls cares about",
+    quote: "Thank you so much for bringing the gifts over. I love them. They are really nice. 👍 👏👏",
     author: {
       name: 'Nina Park',
-      title: 'BRAND OWNER',
+      title: 'SATISFIED CLIENT',
       avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face'
     },
     className: 'xl:absolute xl:top-[15%] xl:right-[2%] w-full sm:max-w-sm',
