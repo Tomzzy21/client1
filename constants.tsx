@@ -40,13 +40,6 @@ export const portfolioItems: PortfolioItem[] = [
         image: '/IMG_0641.jpg',
     },
     {
-        id: 5,
-        title: 'Branded Mugs',
-        category: 'Drinkware',
-        description: 'Everyday essentials that keep your brand front and center, from the first sip of coffee to the last.',
-        image: '/IMG_0636.jpg',
-    },
-    {
         id: 6,
         title: 'Promotional Umbrellas',
         category: 'Outdoor',
@@ -62,9 +55,9 @@ export const portfolioItems: PortfolioItem[] = [
     },
     {
         id: 8,
-        title: 'Custom Notebooks',
-        category: 'Office Supplies',
-        description: 'Premium quality notebooks featuring your brand, perfect for corporate gifting and promotions.',
+        title: 'Branded Mugs',
+        category: 'Drinkware',
+        description: 'Everyday essentials that keep your brand front and center, from the first sip of coffee to the last.',
         image: '/PHOTO-2025-08-29-18-36-59.jpg',
     },
     {

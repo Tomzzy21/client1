@@ -60,7 +60,7 @@ const About: React.FC = () => {
     const sectionRef = useScrollAnimation();
 
     const benefits = [
-        "Award-winning creative team",
+        "Expert brand strategists and designers",
         "Strategic approach to branding",
         "Proven track record of success",
         "Comprehensive service offering"
