@@ -6,7 +6,7 @@ import HowItWorks from './components/HowItWorks';
 import Services from './components/Services';
 import About from './components/About';
 import Testimonials from './components/Testimonials';
-import FAQ from './components/FAQ';
+import AboutUs from './components/AboutUs';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
@@ -17,13 +17,28 @@ const App: React.FC = () => {
     <div className="antialiased">
       <Navbar />
       <main>
+        {/* Hero Section - First impression */}
         <Hero />
-        <HowItWorks />
-        <Services />
-        <Portfolio />
+        
+        {/* Why Choose Us - Showcase unique value */}
         <About />
+        
+        {/* Services - What we offer */}
+        <Services />
+        
+        {/* How It Works - Our process */}
+        <HowItWorks />
+        
+        {/* Portfolio - Our work examples */}
+        <Portfolio />
+        
+        {/* About Us - Company information */}
+        <AboutUs />
+        
+        {/* Testimonials - Social proof */}
         <Testimonials />
-        <FAQ />
+        
+        {/* Contact - Final call to action */}
         <Contact />
       </main>
       <Footer />

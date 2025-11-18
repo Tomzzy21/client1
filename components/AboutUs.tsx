@@ -7,14 +7,14 @@ const FAQ: React.FC = () => {
     const sectionRef = useScrollAnimation();
 
     return (
-        <section id="faq" ref={sectionRef} className="py-20 md:py-32 bg-gray-50">
+        <section id="about" ref={sectionRef} className="pt-6 md:pt-10 pb-20 md:pb-32 bg-gray-50">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tighter text-slate-900">
-                        Frequently Asked <span className="bg-gradient-to-r from-blue-700 to-emerald-500 bg-clip-text text-transparent">Questions</span>
+                        About <span className="bg-gradient-to-r from-blue-700 to-emerald-500 bg-clip-text text-transparent">Us</span>
                     </h2>
                     <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-600">
-                        Everything you need to know about our services and company.
+                        Get to know more about our company and what we stand for.
                     </p>
                 </div>
                 <div className="max-w-4xl mx-auto">

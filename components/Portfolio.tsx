@@ -38,7 +38,7 @@ const Portfolio: React.FC = () => {
     const sectionRef = useScrollAnimation();
 
     return (
-        <section id="portfolio" ref={sectionRef} className="py-20 md:py-32 bg-gray-50 overflow-hidden">
+        <section id="portfolio" ref={sectionRef} className="pt-20 md:pt-32 pb-4 md:pb-8 bg-gray-50 overflow-hidden">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-24">
                     <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tighter text-slate-900">

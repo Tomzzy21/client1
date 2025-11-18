@@ -3,10 +3,11 @@ import React from 'react';
 import type { NavLink, Service, HowItWorksStep, Testimonial, TeamMember, FAQItem, PortfolioItem } from './types';
 
 export const navLinks: NavLink[] = [
-  { href: '#how-it-works', label: 'How It Works' },
+  { href: '#why-choose-us', label: 'Why Choose Us' },
   { href: '#services', label: 'Services' },
+  { href: '#how-it-works', label: 'How It Works' },
   { href: '#portfolio', label: 'Our Work' },
-  { href: '#about', label: 'About' },
+  { href: '#about', label: 'About Us' },
   { href: '#contact', label: 'Contact' },
 ];
 
