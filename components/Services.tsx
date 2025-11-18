@@ -19,7 +19,7 @@ const Services: React.FC = () => {
                     title={<>
                         Solutions to{' '}
                         <span className="relative inline-block align-middle w-20 h-16 mx-2" style={{overflow: 'visible', marginTop: '1rem'}}>
-                            <span className="absolute -top-12 left-1/2 -translate-x-1/2 bg-gradient-to-r from-[#2A59A7] to-[#3CA642] bg-clip-text text-transparent italic -rotate-3 whitespace-nowrap px-2" style={{minWidth: 'max-content', display: 'block'}}>
+                            <span className="absolute -top-12 left-1/2 -translate-x-1/2 bg-gradient-to-r from-blue-700 to-emerald-500 bg-clip-text text-transparent italic -rotate-3 whitespace-nowrap px-2" style={{minWidth: 'max-content', display: 'block'}}>
                                 Elevate
                             </span>
                             <svg className="w-full h-full text-emerald-400 opacity-70" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">

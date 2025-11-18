@@ -72,7 +72,7 @@ const About: React.FC = () => {
                 <div className="grid lg:grid-cols-2 gap-12 lg:gap-24 items-center">
                     <div className="order-2 lg:order-1">
                         <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tighter text-slate-900">
-                            Why Choose <span className="bg-gradient-to-r from-[#2A59A7] to-[#3CA642] bg-clip-text text-transparent">Us?</span>
+                            Why Choose <span className="bg-gradient-to-r from-blue-700 to-emerald-500 bg-clip-text text-transparent">Us?</span>
                         </h2>
                         <p className="mt-6 text-lg text-slate-600">
                             With over a decade of experience, we understand what makes brands memorable. Our passion is to fuse creativity with strategy, delivering results that don't just look good but perform exceptionally.

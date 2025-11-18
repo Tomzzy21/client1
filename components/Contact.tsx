@@ -102,7 +102,7 @@ const Contact: React.FC = () => {
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tighter text-slate-900">
-                        Let's <span className="bg-gradient-to-r from-[#2A59A7] to-[#3CA642] bg-clip-text text-transparent">Create Together</span>
+                        Let's <span className="bg-gradient-to-r from-blue-700 to-emerald-500 bg-clip-text text-transparent">Create Together</span>
                     </h2>
                     <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-600">
                         Ready to transform your brand? Get in touch and let's discuss your project.

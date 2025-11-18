@@ -239,7 +239,7 @@ const Hero: React.FC = () => {
                     <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tighter text-slate-900">
                         Brand Excellence,
                         <br />
-                        <span className="bg-gradient-to-r from-[#2A59A7] to-[#3CA642] bg-clip-text text-transparent">Redefined.</span>
+                        <span className="bg-gradient-to-r from-blue-700 to-emerald-500 bg-clip-text text-transparent">Redefined.</span>
                     </h1>
                     <p className="mt-6 max-w-2xl mx-auto text-lg md:text-xl text-slate-600">
                         We craft extraordinary brand experiences that captivate audiences and drive business success through innovative design and strategic thinking.

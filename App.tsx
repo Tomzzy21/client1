@@ -6,7 +6,6 @@ import HowItWorks from './components/HowItWorks';
 import Services from './components/Services';
 import About from './components/About';
 import Testimonials from './components/Testimonials';
-import AboutUs from './components/AboutUs';
 import FAQ from './components/FAQ';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -19,10 +18,10 @@ const App: React.FC = () => {
       <Navbar />
       <main>
         <Hero />
-        <AboutUs />
-        <Services />
         <HowItWorks />
+        <Services />
         <Portfolio />
+        <About />
         <Testimonials />
         <FAQ />
         <Contact />

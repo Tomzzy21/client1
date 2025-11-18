@@ -42,7 +42,7 @@ const Portfolio: React.FC = () => {
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-24">
                     <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tighter text-slate-900">
-                        Our <span className="bg-gradient-to-r from-[#2A59A7] to-[#3CA642] bg-clip-text text-transparent">Featured</span> Work
+                        Our <span className="bg-gradient-to-r from-blue-700 to-emerald-500 bg-clip-text text-transparent">Featured</span> Work
                     </h2>
                     <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-600">
                         A gallery of creative explorations and educational content we've designed.

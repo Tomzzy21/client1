@@ -6,7 +6,7 @@ export const navLinks: NavLink[] = [
   { href: '#how-it-works', label: 'How It Works' },
   { href: '#services', label: 'Services' },
   { href: '#portfolio', label: 'Our Work' },
-  { href: '#about-us', label: 'About' },
+  { href: '#about', label: 'About' },
   { href: '#contact', label: 'Contact' },
 ];
 
@@ -238,28 +238,7 @@ export const teamMembers: TeamMember[] = [
     },
 ];
 
-// About Us content items
-export const aboutUsItems = [
-    {
-        question: 'Who are we?',
-        answer: 'Macchie & Strisce Limited is a wholly owned Nigerian company in the business of creative branding solutions. Established in 2015, we focus on positive customer experience in our end-to-end service delivery.'
-    },
-    {
-        question: 'What do we do?',
-        answer: 'We specialize in creating memorable brand experiences through innovative promotional products and corporate gifts. Our solutions help businesses enhance their brand visibility and customer engagement.'
-    },
-    {
-        question: 'How do we do it?',
-        answer: 'Our process combines creative design, quality materials, and strategic thinking to deliver products that make a lasting impression. We work closely with clients to understand their brand and objectives.'
-    },
-    {
-        question: 'Why choose us?',
-        answer: 'With years of experience and a passion for excellence, we deliver high-quality, customized solutions that help our clients stand out in the market. Our commitment to customer satisfaction sets us apart.'
-    }
-];
-
-// FAQ items
-export const faqItems = [
+export const faqItems: FAQItem[] = [
     {
         question: 'Who are we?',
         answer: 'Macchie & Strisce Limited is a wholly owned Nigerian company in the business of creative branding solutions. Established in 2015, we focus on positive customer experience in our end-to-end service delivery.'
@@ -288,29 +267,5 @@ export const faqItems = [
                 <li className="flex items-start gap-x-3"><CheckIcon /><span>Fast response time & after-sales support</span></li>
             </ul>
         )
-    },
-    {
-        question: 'What is your minimum order quantity?',
-        answer: 'Our minimum order quantity varies depending on the product. We understand that every business has different needs, so we offer flexible order quantities to accommodate both small and large businesses.'
-    },
-    {
-        question: 'How long does production take?',
-        answer: 'Production time depends on the complexity of the order and current workload. Typically, production takes 2-4 weeks from approval of final artwork. Rush services may be available for an additional fee.'
-    },
-    {
-        question: 'Do you offer design services?',
-        answer: 'Yes, we have an in-house design team that can help bring your vision to life. We can create custom designs or work with your existing branding materials to ensure consistency across all products.'
-    },
-    {
-        question: 'What file formats do you accept for artwork?',
-        answer: 'We prefer vector files (.ai, .eps, .pdf) for the best quality, but we can work with high-resolution raster files (.jpg, .png) at 300dpi or higher. Our team will review all files and advise if any adjustments are needed.'
-    },
-    {
-        question: 'What is your return policy?',
-        answer: 'Due to the custom nature of our products, we generally do not accept returns. However, if there is a manufacturing defect or error on our part, we will work with you to resolve the issue promptly.'
-    },
-    {
-        question: 'Do you ship internationally?',
-        answer: 'Yes, we offer international shipping. Shipping costs and delivery times vary by destination. Contact us with your location and order details for specific shipping information.'
     }
 ];

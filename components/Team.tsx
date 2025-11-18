@@ -45,7 +45,7 @@ const Team: React.FC = () => {
                     Our Team
                 </div>
                 <h2 className="mt-4 text-4xl md:text-5xl font-extrabold tracking-tighter text-slate-900">
-                    Meet The <span className="bg-gradient-to-r from-[#2A59A7] to-[#3CA642] bg-clip-text text-transparent">People</span> Behind The Works
+                    Meet The <span className="bg-gradient-to-r from-blue-700 to-emerald-500 bg-clip-text text-transparent">People</span> Behind The Works
                 </h2>
                 <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     {teamMembers.map((member, index) => (
