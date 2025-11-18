@@ -11,7 +11,7 @@ const HowItWorks: React.FC = () => {
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16 md:mb-24">
                     <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tighter text-slate-900">
-                        How It <span className="bg-gradient-to-r from-blue-700 to-emerald-500 bg-clip-text text-transparent">Works</span>
+                        How It <span className="bg-gradient-to-r from-[#2A59A7] to-[#3CA642] bg-clip-text text-transparent">Works</span>
                     </h2>
                     <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-600">
                         A simple, streamlined process to bring your branding needs to life.
