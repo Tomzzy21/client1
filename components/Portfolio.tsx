@@ -61,10 +61,13 @@ const Portfolio: React.FC = () => {
                     <div className="block lg:hidden absolute top-0 left-1/2 -translate-x-1/2 w-0.5 h-full bg-black/20 z-0" />
 
                     {/* Mobile and tablet layout */}
-                    <div className="relative z-10 flex flex-wrap justify-center items-start gap-x-6 gap-y-16 md:gap-x-12 lg:hidden">
-                        {portfolioItems.map((item, index) => (
-                            <PortfolioCard key={item.id} item={item} transform={cardTransforms[index % cardTransforms.length]}/>
-                        ))}
+                    <div className="relative z-10 lg:hidden">
+                        {/* Portfolio items grid */}
+                        <div className="flex flex-wrap justify-center items-start gap-x-6 gap-y-16 md:gap-x-12">
+                            {portfolioItems.map((item, index) => (
+                                <PortfolioCard key={item.id} item={item} transform={cardTransforms[index % cardTransforms.length]}/>
+                            ))}
+                        </div>
                     </div>
 
                     {/* Laptop horizontal scroll layout */}

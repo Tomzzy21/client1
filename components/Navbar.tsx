@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { navLinks } from '../constants';
+import logo from '../public/logo.PNG';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,7 +20,7 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <a href="#hero" className="flex items-center">
-            <img src="/logo.PNG" alt="Logo" className="h-32 w-auto" />
+            <img src={logo} alt="Logo" className="h-32 w-auto" />
           </a>
           
           <nav className="hidden md:flex items-center space-x-8">
