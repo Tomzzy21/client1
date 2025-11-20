@@ -6,7 +6,6 @@ import HowItWorks from './components/HowItWorks';
 import Services from './components/Services';
 import About from './components/About';
 import Testimonials from './components/Testimonials';
-import FAQ from './components/FAQ';
 import AboutUs from './components/AboutUs';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -21,8 +20,8 @@ const App: React.FC = () => {
         {/* Hero Section - First impression */}
         <Hero />
         
-        {/* About Us - Company information */}
-        <AboutUs />
+        {/* Why Choose Us - Showcase unique value */}
+        <About />
         
         {/* Services - What we offer */}
         <Services />
@@ -33,14 +32,11 @@ const App: React.FC = () => {
         {/* Portfolio - Our work examples */}
         <Portfolio />
         
-        {/* Why Choose Us - Showcase unique value */}
-        <About />
+        {/* About Us - Company information */}
+        <AboutUs />
         
         {/* Testimonials - Social proof */}
         <Testimonials />
-        
-        {/* FAQ - Common questions */}
-        <FAQ />
         
         {/* Contact - Final call to action */}
         <Contact />
