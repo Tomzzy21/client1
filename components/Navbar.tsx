@@ -1,7 +1,9 @@
 
 import React, { useState, useEffect } from 'react';
 import { navLinks } from '../constants';
-import logo from '../public/logo.PNG';
+
+// Using Vite's import.meta.url to reference the public directory
+const logo = '/logo.PNG';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);

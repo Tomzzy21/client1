@@ -1,7 +1,9 @@
 
 import React from 'react';
 import { navLinks } from '../constants';
-import logo from '../public/logo.PNG';
+
+// Using direct path for Vite compatibility
+const logo = '/logo.PNG';
 
 const Footer: React.FC = () => {
     return (
