@@ -239,6 +239,25 @@ export const teamMembers: TeamMember[] = [
     },
 ];
 
+export const aboutUsContent: AboutUsContent[] = [
+    {
+        title: 'Our Story',
+        content: 'Founded with a vision to transform corporate gifting, we started as a small team of passionate designers and brand strategists. Today, we help businesses create meaningful connections through thoughtful, high-quality branded merchandise.'
+    },
+    {
+        title: 'Our Mission',
+        content: 'To deliver exceptional branded products that not only represent your company values but also create lasting impressions. We believe in the power of thoughtful gifting to strengthen business relationships and build brand loyalty.'
+    },
+    {
+        title: 'Our Approach',
+        content: 'We combine innovative design with premium materials to create corporate gifts that stand out. Our team works closely with each client to understand their brand identity and deliver customized solutions that exceed expectations.'
+    },
+    {
+        title: 'Why Choose Us',
+        content: 'With years of experience in the industry, we pride ourselves on exceptional quality, attention to detail, and outstanding customer service. Our clients trust us to deliver products that truly represent their brand.'
+    }
+];
+
 export const faqItems: FAQItem[] = [
     {
         question: 'What types of corporate gifts do you specialize in?',

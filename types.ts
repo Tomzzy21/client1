@@ -42,6 +42,11 @@ export interface FAQItem {
   answer: string | ReactNode;
 }
 
+export interface AboutUsContent {
+  title: string;
+  content: string;
+}
+
 export interface PortfolioItem {
   id: number;
   title: string;
