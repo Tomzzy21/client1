@@ -241,32 +241,35 @@ export const teamMembers: TeamMember[] = [
 
 export const faqItems: FAQItem[] = [
     {
-        question: 'Who are we?',
-        answer: 'Macchie & Strisce Limited is a wholly owned Nigerian company in the business of creative branding solutions. Established in 2015, we focus on positive customer experience in our end-to-end service delivery.'
+        question: 'What types of corporate gifts do you specialize in?',
+        answer: 'We specialize in a wide range of high-quality corporate gifts including branded pens, identity keychains, premium accessories, corporate gift kits, promotional umbrellas, stationery sets, branded mugs, and desk organizers. Each item is carefully selected to ensure it makes a lasting impression on your clients and employees.'
     },
     {
-        question: 'What do we do?',
-        answer: 'Our services include customization of corporate gifts & promotional items, awards, print production, and more. Simply, we boost your brand promotion and value.'
+        question: 'How do you ensure our brand stands out in your designs?',
+        answer: 'With over a decade of experience creating 500+ brands, our expert strategists and designers combine creativity with strategic thinking. We focus on understanding your unique brand identity and values, then craft designs that not only look exceptional but effectively communicate your message and resonate with your target audience.'
     },
     {
-        question: 'Our Core Services',
-        answer: (
-            <ul className="space-y-2">
-                <li className="flex items-center gap-x-3"><CheckIcon /><span>Product sourcing</span></li>
-                <li className="flex items-center gap-x-3"><CheckIcon /><span>Merchandize design</span></li>
-                <li className="flex items-center gap-x-3"><CheckIcon /><span>Corporate Branding</span></li>
-                <li className="flex items-center gap-x-3"><CheckIcon /><span>Product design and print</span></li>
-            </ul>
-        )
+        question: 'What makes your branding solutions different from others?',
+        answer: 'Our approach combines innovative design with strategic thinking to create comprehensive branding solutions. We don\'t just create beautiful designs; we develop strategic brand experiences that drive business success. Our 98% client satisfaction rate and proven track record speak to our commitment to excellence.'
     },
     {
-        question: 'Why Choose Us?',
-        answer: (
-            <ul className="space-y-2">
-                <li className="flex items-start gap-x-3"><CheckIcon /><span>Extremely affordable & high quality</span></li>
-                <li className="flex items-start gap-x-3"><CheckIcon /><span>Highly resourceful with quick delivery</span></li>
-                <li className="flex items-start gap-x-3"><CheckIcon /><span>Fast response time & after-sales support</span></li>
-            </ul>
-        )
+        question: 'Can you handle both design and production of branded items?',
+        answer: 'Absolutely! We offer end-to-end services from initial concept to final production. Our in-house team handles everything from custom design to sourcing premium materials and managing quality control, ensuring a seamless process and consistent quality throughout.'
+    },
+    {
+        question: 'What industries have you worked with?',
+        answer: 'We\'ve successfully served a diverse range of industries including marketing agencies, corporate training firms, and various businesses looking to enhance their brand presence. Our portfolio includes everything from professional stationery to unique promotional items that make an impact.'
+    },
+    {
+        question: 'How do you ensure the quality of your products?',
+        answer: 'Quality is at the heart of everything we do. We implement a rigorous quality control process and work only with premium materials. Our commitment to excellence is reflected in our 98% client satisfaction rate and the positive feedback we receive from clients who love our products.'
+    },
+    {
+        question: 'Can you create custom designs for specific events or campaigns?',
+        answer: 'Yes! We specialize in creating custom solutions for various needs. Whether you need unique gift items for corporate training, special events, or marketing campaigns, we can design and produce items that perfectly match your campaign goals and leave a lasting impression.'
+    },
+    {
+        question: 'What is your process for starting a new branding project?',
+        answer: 'Our process begins with understanding your brand, vision, and strategic goals. We then move to the creative phase where we design concepts and source premium materials. Finally, we handle production and quality control, delivering exceptional products right to your door. Throughout the process, we maintain open communication to ensure your complete satisfaction.'
     }
 ];

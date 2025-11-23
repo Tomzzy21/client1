@@ -1,16 +1,16 @@
-
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import HowItWorks from './components/HowItWorks';
 import Services from './components/Services';
-import About from './components/About';
+import Portfolio from './components/Portfolio';
 import Testimonials from './components/Testimonials';
+import FAQSection from './components/FAQSection';
 import AboutUs from './components/AboutUs';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
-import Portfolio from './components/Portfolio';
+import About from './components/About';
 
 const App: React.FC = () => {
   return (
@@ -20,8 +20,8 @@ const App: React.FC = () => {
         {/* Hero Section - First impression */}
         <Hero />
         
-        {/* Why Choose Us - Showcase unique value */}
-        <About />
+        {/* About Us - Company information */}
+        <AboutUs />
         
         {/* Services - What we offer */}
         <Services />
@@ -32,11 +32,14 @@ const App: React.FC = () => {
         {/* Portfolio - Our work examples */}
         <Portfolio />
         
-        {/* About Us - Company information */}
-        <AboutUs />
+        {/* Why Choose Us - Showcase unique value */}
+        <About />
         
         {/* Testimonials - Social proof */}
         <Testimonials />
+        
+        {/* FAQ Section */}
+        <FAQSection />
         
         {/* Contact - Final call to action */}
         <Contact />

@@ -175,10 +175,10 @@ const Testimonials: React.FC = () => {
                     </h2>
                 </div>
 
-                {/* Responsive layout: stacked on mobile, absolute on desktop */}
-                <div className="relative xl:h-[650px]">
+                {/* Responsive layout: horizontal scroll on mobile/tablet, grid on laptop/desktop */}
+                <div className="relative">
                     {/* Mobile & Tablet Layout */}
-                    <div className="xl:hidden w-full">
+                    <div className="lg:hidden w-full">
                         <div className="flex overflow-x-auto pb-8 -mx-4 px-4 gap-8 snap-x snap-mandatory [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
                             {testimonials.map((testimonial, index) => (
                                 <div key={index} className="flex-shrink-0 w-72 px-2 snap-center">
@@ -188,13 +188,15 @@ const Testimonials: React.FC = () => {
                         </div>
                     </div>
 
-                    {/* Desktop Layout */}
-                    <div className="hidden xl:block">
-                        {testimonials.map((testimonial, index) => (
-                            <div key={index} className={testimonial.className}>
-                               <TestimonialCard {...testimonial} />
-                            </div>
-                        ))}
+                    {/* Laptop & Desktop Layout */}
+                    <div className="hidden lg:block">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-16">
+                            {testimonials.map((testimonial, index) => (
+                                <div key={index} className={`w-full ${index >= 3 ? 'lg:mt-16' : ''}`}>
+                                    <TestimonialCard {...testimonial} />
+                                </div>
+                            ))}
+                        </div>
                     </div>
                 </div>
             </div>
