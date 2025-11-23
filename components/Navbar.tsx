@@ -19,7 +19,7 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <a href="#hero" className="flex items-center">
-            <img src="/logo.png" alt="Logo" className="h-32 w-auto" />
+            <img src="/Logo.png" alt="Logo" className="h-32 w-auto" />
           </a>
           
           <nav className="hidden md:flex items-center space-x-8">
